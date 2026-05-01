@@ -1,8 +1,12 @@
 # 🏛️ Architects
 
-This folder contains AI skills designed specifically for **architectural workflows** using **Claude AI** and **OpenAI Codex**.
+This folder contains separated AI skills designed specifically for **architectural workflows** using **Claude AI** and **OpenAI Codex**.
 
-Use these files to improve:
+Each `.md` file now represents a clear standalone skill with its own name, purpose, prompt block, and best-use guidance.
+
+---
+
+## What These Skills Improve
 
 - Design brief analysis
 - Area program review
@@ -15,6 +19,8 @@ Use these files to improve:
 - Exterior and internal wall system review
 - Architectural detailing logic
 - Area schedule validation
+- Drawing naming validation
+- Sheet set review
 - Facade panelization logic
 - Wall system schedule validation
 - Architectural QA before delivery
@@ -26,82 +32,64 @@ Use these files to improve:
 ```text
 claude-ai/
   knowledge-inputs/
+    architectural-project-knowledge-setup.md
   analysis-behavior/
+    architectural-risk-analysis-skill.md
   best-use-cases/
+    concept-design-review-skill.md
+    program-analysis-skill.md
+    consultant-coordination-skill.md
   facade-analysis/
+    facade-analysis-skill.md
   sustainability-material-strategy/
+    sustainability-material-strategy-skill.md
   exterior-internal-wall-systems/
+    exterior-internal-wall-systems-skill.md
   architectural-detailing-generator/
+    architectural-detailing-generator-skill.md
   code-zoning-review/
+    code-zoning-review-skill.md
 
 codex/
   validation-skills/
+    area-schedule-validation-skill.md
+    drawing-naming-validation-skill.md
+    sheet-set-review-skill.md
   automation-logic/
+    rule-engine-automation-skill.md
+    issue-log-automation-skill.md
   accuracy-testing/
+    architectural-edge-case-testing-skill.md
+    manual-vs-auto-comparison-skill.md
   facade-panelization-logic/
+    facade-panelization-logic-skill.md
   area-program-validation/
+    area-program-validation-skill.md
   wall-system-schedule-validator/
+    wall-system-schedule-validator-skill.md
 ```
 
 ---
 
 ## 🧠 Claude AI Skills for Architects
 
-Use **Claude AI** for:
-
-- Architectural design reasoning
-- Program and site constraint analysis
-- Facade concept review
-- Sustainability material review
-- External and internal wall system thinking
-- Code and zoning question identification
-- Architectural detailing logic
-- Consultant coordination notes
-- Project-level QA comments and recommendations
-
-Claude AI is strongest when you need to **understand, review, compare, reason, and explain architectural project information**.
+Use **Claude AI** for understanding, reviewing, comparing, reasoning, and explaining architectural project information.
 
 ---
 
 ## ⚙️ Codex Skills for Architects
 
-Use **Codex** for:
-
-- Area program validation
-- Drawing/package validation rules
-- Sheet set and naming checks
-- Facade panelization logic
-- Wall system schedule validation
-- Issue logs
-- Revision tracking
-- Checklist automation
-- Export-ready QA reports
-
-Codex is strongest when you need **repeatable logic, validation checks, structured data, automation, and tool-building workflows**.
+Use **Codex** for repeatable logic, validation checks, structured data, automation, and tool-building workflows.
 
 ---
 
-## 🚀 Recommended Workflow
+## ✅ How to Add a Skill
 
-```text
-Project Brief / Site Data / Drawing Package
-→ Claude AI Knowledge Setup
-→ Architectural Analysis
-→ Facade / Wall / Code Review Support
-→ Codex Validation Rules
-→ Issue Flags
-→ Clean QA Report / Automation Output
-```
-
----
-
-## ✅ How to Add the Skill
-
-1. Open the needed folder.
-2. Open `skill-library.md`.
+1. Open the needed category folder.
+2. Open the specific skill `.md` file.
 3. Copy the **Add the Skill** prompt block.
 4. Paste it into Claude AI, Codex, or your project AI workspace.
-5. Replace the placeholders with your real project data.
+5. Replace placeholders with real project data.
 6. Save repeated prompts as reusable project skills.
 
 ---
