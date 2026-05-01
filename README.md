@@ -4,7 +4,7 @@ A professional Markdown skill library for using **Claude AI** and **OpenAI Codex
 
 This repository is organized as reusable skill folders that can be copied into your AI workspace, project documentation, Claude skills, prompt library, Codex instructions, or workflow automation setup.
 
-> Built by **Mohamed Rafat Ibrahim** to help designers and architects improve quality assurance, analysis, productivity, and repeatable project outputs.
+> Built by **Mohamed Rafat Ibrahim** to help designers and architects improve quality assurance, analysis, productivity, technical drawing understanding, detailing logic, scheduling, and repeatable project outputs.
 
 ---
 
@@ -18,6 +18,8 @@ Instead of using AI with random prompts, each skill is designed to help you:
 - 🧩 Guide Claude AI with clear analysis behavior
 - ✅ Build Codex validation and automation logic
 - 🔍 Improve quality assurance before delivery
+- 📐 Read and interpret technical drawings more clearly
+- 🧱 Support detailing, schedules, legends, and material systems
 - ⚡ Reduce repetitive manual checking
 - 📊 Produce more consistent, structured outputs
 
@@ -30,25 +32,43 @@ The goal is simple:
 ## 📁 Repository Structure
 
 ```text
-Interior Designers/
-  Claude AI/
-    Knowledge Inputs/
-    Analysis Behavior/
-    Best Use Cases/
-  Codex/
-    Validation Skills/
-    Automation Logic/
-    Accuracy Testing/
+interior-designers/
+  claude-ai/
+    knowledge-inputs/
+    analysis-behavior/
+    best-use-cases/
+    technical-drawing-reader/
+    rcp-ceiling-legend-interpreter/
+    floor-wall-finish-legend-reader/
+    material-schedule-generator/
+    ffe-schedule-analyzer/
+    unit-conversion-mm-cm-m/
+    interior-detailing-generator/
+  codex/
+    validation-skills/
+    automation-logic/
+    accuracy-testing/
+    drawing-validation-engine/
+    legend-parser-logic/
+    schedule-generator-logic/
 
-Architects/
-  Claude AI/
-    Knowledge Inputs/
-    Analysis Behavior/
-    Best Use Cases/
-  Codex/
-    Validation Skills/
-    Automation Logic/
-    Accuracy Testing/
+architects/
+  claude-ai/
+    knowledge-inputs/
+    analysis-behavior/
+    best-use-cases/
+    facade-analysis/
+    sustainability-material-strategy/
+    exterior-internal-wall-systems/
+    architectural-detailing-generator/
+    code-zoning-review/
+  codex/
+    validation-skills/
+    automation-logic/
+    accuracy-testing/
+    facade-panelization-logic/
+    area-program-validation/
+    wall-system-schedule-validator/
 ```
 
 ---
@@ -59,13 +79,16 @@ Claude AI is best used for:
 
 - Design reasoning
 - Brief interpretation
+- Technical drawing interpretation
 - Concept and option analysis
 - Risk identification
 - Coordination review
+- Material strategy review
+- Detailing logic
 - QA comments
 - Structured recommendations
 
-Use Claude when the task requires **thinking, reviewing, comparing, explaining, or detecting design issues**.
+Use Claude when the task requires **thinking, reviewing, comparing, explaining, interpreting drawings, or detecting design issues**.
 
 ---
 
@@ -74,6 +97,9 @@ Use Claude when the task requires **thinking, reviewing, comparing, explaining, 
 Codex is best used for:
 
 - Rule-based validation
+- Drawing package checking
+- Legend parsing logic
+- Schedule generation logic
 - Checklist automation
 - File and output formatting
 - Repeatable QA checks
@@ -88,21 +114,21 @@ Use Codex when the task requires **logic, repeatable checking, structured automa
 ## 🚀 How to Use These Skills Well
 
 1. **Choose your field**  
-   Open either `Interior Designers` or `Architects`.
+   Open either `interior-designers` or `architects`.
 
 2. **Choose your AI role**  
-   Use `Claude AI` for analysis and reasoning.  
-   Use `Codex` for validation, logic, and automation.
+   Use `claude-ai` for analysis, reasoning, drawing interpretation, and design decision support.  
+   Use `codex` for validation, logic, automation, and repeatable checking.
 
-3. **Select the right category**  
-   For Claude AI: start with `Knowledge Inputs`, then `Analysis Behavior`, then `Best Use Cases`.  
-   For Codex: start with `Validation Skills`, then `Automation Logic`, then `Accuracy Testing`.
+3. **Select the right skill category**  
+   For Claude AI, start with knowledge, interpretation, analysis, and use-case skills.  
+   For Codex, start with validation, parser logic, schedule logic, and automation rules.
 
 4. **Copy the skill prompt**  
    Paste it into Claude, Codex, or your own AI workspace.
 
 5. **Replace placeholders**  
-   Insert your real project brief, drawings, schedules, BOQ, specs, or task requirements.
+   Insert your real project brief, drawings, schedules, BOQ, specs, legends, or task requirements.
 
 6. **Save repeated rules**  
    Convert repeated prompts into reusable skills, templates, or automation modules.
@@ -114,6 +140,7 @@ Use Codex when the task requires **logic, repeatable checking, structured automa
 ```text
 Project Data
 → Knowledge Setup
+→ Technical Drawing / Schedule Interpretation
 → Analytical Review
 → Validation Rules
 → Issue Flags
@@ -127,27 +154,35 @@ Project Data
 
 ### For Interior Designers
 
-- Moodboard refinement
+- Technical drawing reading
+- RCP and ceiling legend interpretation
+- Floor and wall finish legend reading
 - FF&E checks
+- Material schedule generation
 - Finish schedule review
 - BOQ checking
-- Material/spec consistency
-- Client brief analysis
+- Interior detailing logic
+- Unit conversion: mm / cm / m
+- Drawing validation before submission
 
 ### For Architects
 
-- Area schedule checks
-- Code-oriented review
-- Drawing naming rules
-- Sheet set review
-- Consultant coordination
-- Design QA review
+- Facade analysis
+- Sustainability material strategy
+- Exterior and internal wall systems
+- Architectural detailing logic
+- Area program validation
+- Code and zoning review support
+- Facade panelization logic
+- Wall system schedule validation
+- Drawing naming and sheet set review
+- Consultant coordination QA
 
 ---
 
 ## ✅ Professional Use Notes
 
-These files are designed as practical workflow accelerators. They do not replace professional judgment, local code review, or consultant responsibility. Use them to structure your thinking, reduce repetitive tasks, and improve the consistency of your output.
+These files are designed as practical workflow accelerators. They do not replace professional judgment, local code review, authority approval, manufacturer guidance, or consultant responsibility. Use them to structure your thinking, reduce repetitive tasks, and improve the consistency of your output.
 
 ---
 
