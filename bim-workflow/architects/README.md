@@ -1,27 +1,44 @@
-# Architects — BIM Workflow Skills
+# 🏛️ Architects — BIM Workflow Skills
 
-This folder contains BIM workflow skills for **Architects**, organized into **Claude AI** and **OpenAI Codex**.
+This folder contains BIM workflow skills for **architectural BIM teams**.
 
-## Discipline Focus
+## AI Roles
 
-Architectural BIM, project setup, design coordination, facade/envelope, areas, documentation, consultant coordination, and handover control.
+- `claude-ai/` → BIM review, architectural reasoning, coordination analysis, and execution guidance
+- `codex/` → validation rules, naming checks, area schedules, clash tracking, and deliverable automation
 
-## Folder Structure
+## Architectural BIM Focus
+
+- Project BIM requirements
+- BIM Execution Plan review
+- Architectural model setup
+- Area program logic
+- Facade and envelope coordination
+- Wall type and door/window data
+- Drawing and documentation production
+- Consultant coordination
+- As-built model and handover control
+
+## Common Coordination Checks
+
+- Architecture vs structure clashes
+- Door swing and circulation issues
+- Facade openings vs structure
+- Room data vs area program
+- Wall types vs schedules
+- Architectural grids and levels vs linked models
+- Consultant comments vs model updates
+
+## Included Skill Files
 
 ```text
 claude-ai/
-  bim-workflow-manager.md
-  discipline-coordination-reviewer.md
+  bim-workflow-skills.md
+  execution-engine.md
 
 codex/
-  bim-validation-automation.md
-  clash-issue-tracking-logic.md
+  bim-automation-validation-skills.md
 ```
-
-## Recommended Use
-
-- Use **Claude AI** for BIM requirement review, BEP review, coordination analysis, deliverable review, and decision support.
-- Use **Codex** for validation logic, issue tracking automation, naming checks, CDE checks, and repeatable QA workflows.
 
 ---
 
