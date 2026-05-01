@@ -1,25 +1,27 @@
-# 🧠 AI Skills Pack for Interior Designers & Architects
+# 🧠 AI Skills Pack for Interior Designers, Architects & BIM Teams
 
-A professional Markdown skill library for using **Claude AI** and **OpenAI Codex** in architecture and interior design workflows.
+A professional Markdown skill library for using **Claude AI** and **OpenAI Codex** in architecture, interior design, engineering, and BIM workflows.
 
 This repository is organized as reusable skill folders that can be copied into your AI workspace, project documentation, Claude skills, prompt library, Codex instructions, or workflow automation setup.
 
-> Built by **Mohamed Rafat Ibrahim** to help designers and architects improve quality assurance, analysis, productivity, technical drawing understanding, detailing logic, scheduling, and repeatable project outputs.
+> Built by **Mohamed Rafat Ibrahim** to help designers, architects, BIM teams, MEP engineers, civil engineers, and structural engineers improve quality assurance, analysis, productivity, technical drawing understanding, coordination, detailing logic, scheduling, BIM execution, and repeatable project outputs.
 
 ---
 
 ## 🎯 What This Repository Is About
 
-This repo gives interior designers and architects a structured way to **add AI skills** into their workflow.
+This repo gives AEC professionals a structured way to **add AI skills** into their workflow.
 
 Instead of using AI with random prompts, each skill is designed to help you:
 
 - 📌 Load the right project knowledge
 - 🧩 Guide Claude AI with clear analysis behavior
+- 🚀 Use Claude AI as an execution guidance engine
 - ✅ Build Codex validation and automation logic
 - 🔍 Improve quality assurance before delivery
 - 📐 Read and interpret technical drawings more clearly
 - 🧱 Support detailing, schedules, legends, and material systems
+- 🏗️ Build structured BIM workflows by discipline
 - ⚡ Reduce repetitive manual checking
 - 📊 Produce more consistent, structured outputs
 
@@ -33,156 +35,120 @@ The goal is simple:
 
 ```text
 interior-designers/
-  claude-ai/
-    knowledge-inputs/
-    analysis-behavior/
-    best-use-cases/
-    technical-drawing-reader/
-    rcp-ceiling-legend-interpreter/
-    floor-wall-finish-legend-reader/
-    material-schedule-generator/
-    ffe-schedule-analyzer/
-    unit-conversion-mm-cm-m/
-    interior-detailing-generator/
-  codex/
-    validation-skills/
-    automation-logic/
-    accuracy-testing/
-    drawing-validation-engine/
-    legend-parser-logic/
-    schedule-generator-logic/
-
 architects/
-  claude-ai/
-    knowledge-inputs/
-    analysis-behavior/
-    best-use-cases/
-    facade-analysis/
-    sustainability-material-strategy/
-    exterior-internal-wall-systems/
-    architectural-detailing-generator/
-    code-zoning-review/
-  codex/
-    validation-skills/
-    automation-logic/
-    accuracy-testing/
-    facade-panelization-logic/
-    area-program-validation/
-    wall-system-schedule-validator/
+
+bim-workflow/
+  README.md
+  interior-designers/
+    claude-ai/
+    codex/
+  architects/
+    claude-ai/
+    codex/
+  mep-engineers/
+    mechanical/
+      claude-ai/
+      codex/
+    electrical/
+      claude-ai/
+      codex/
+    plumbing/
+      claude-ai/
+      codex/
+  civil-engineers/
+    claude-ai/
+    codex/
+  structural-engineers/
+    claude-ai/
+    codex/
 ```
 
 ---
 
-## 🧠 Claude AI Skills
+## 🏗️ BIM Workflow Skills
 
-Claude AI is best used for:
+The `bim-workflow/` folder adds discipline-specific BIM skills for:
 
-- Design reasoning
-- Brief interpretation
-- Technical drawing interpretation
-- Concept and option analysis
-- Risk identification
-- Coordination review
-- Material strategy review
-- Detailing logic
-- QA comments
-- Structured recommendations
+- 🎨 Interior Designers
+- 🏛️ Architects
+- 🌬️ Mechanical Engineers
+- ⚡ Electrical Engineers
+- 🚰 Plumbing Engineers
+- 🚧 Civil Engineers
+- 🏗️ Structural Engineers
 
-Use Claude when the task requires **thinking, reviewing, comparing, explaining, interpreting drawings, or detecting design issues**.
+Each discipline includes:
+
+### 🧠 Claude AI
+Claude AI is used for:
+
+- BIM requirement review
+- BIM Execution Plan review
+- Model authoring guidance
+- Model coordination review
+- Clash and issue reasoning
+- Drawing and documentation review
+- Site BIM execution guidance
+- As-built and handover review
+
+### ⚙️ Codex
+Codex is used for:
+
+- BIM validation rules
+- File naming and CDE automation
+- Clash and issue tracking logic
+- Quantity takeoff / BOQ validation
+- Handover deliverable checking
+- QA tables and structured automation outputs
 
 ---
 
-## ⚙️ OpenAI Codex Skills
+## 🔁 BIM Workflow Sequence
 
-Codex is best used for:
-
-- Rule-based validation
-- Drawing package checking
-- Legend parsing logic
-- Schedule generation logic
-- Checklist automation
-- File and output formatting
-- Repeatable QA checks
-- Export workflows
-- Data-driven review logic
-- Automation app development
-
-Use Codex when the task requires **logic, repeatable checking, structured automation, or tool building**.
+```text
+Brief
+→ BIM Requirements
+→ BIM Execution Plan
+→ Model Setup
+→ Discipline Modeling
+→ Coordination
+→ Clash Detection
+→ Issue Resolution
+→ Drawing Production
+→ Quantity Takeoff
+→ Construction Support
+→ As-Built Handover
+```
 
 ---
 
 ## 🚀 How to Use These Skills Well
 
-1. **Choose your field**  
-   Open either `interior-designers` or `architects`.
+1. **Choose your field or discipline**  
+   Open `interior-designers`, `architects`, or `bim-workflow`.
 
 2. **Choose your AI role**  
-   Use `claude-ai` for analysis, reasoning, drawing interpretation, and design decision support.  
+   Use `claude-ai` for analysis, reasoning, interpretation, and execution guidance.  
    Use `codex` for validation, logic, automation, and repeatable checking.
 
 3. **Select the right skill category**  
-   For Claude AI, start with knowledge, interpretation, analysis, and use-case skills.  
-   For Codex, start with validation, parser logic, schedule logic, and automation rules.
+   For Claude AI, start with knowledge, interpretation, analysis, and execution guidance.  
+   For Codex, start with validation, parser logic, schedule logic, issue tracking, and automation rules.
 
 4. **Copy the skill prompt**  
    Paste it into Claude, Codex, or your own AI workspace.
 
 5. **Replace placeholders**  
-   Insert your real project brief, drawings, schedules, BOQ, specs, legends, or task requirements.
+   Insert your real project brief, drawings, schedules, BOQ, specs, legends, clash reports, BIM requirements, or task requirements.
 
 6. **Save repeated rules**  
    Convert repeated prompts into reusable skills, templates, or automation modules.
 
 ---
 
-## 🏗️ Recommended Workflow
-
-```text
-Project Data
-→ Knowledge Setup
-→ Technical Drawing / Schedule Interpretation
-→ Analytical Review
-→ Validation Rules
-→ Issue Flags
-→ Clean Output
-→ QA Report / Automation Tool
-```
-
----
-
-## 💡 Example Uses
-
-### For Interior Designers
-
-- Technical drawing reading
-- RCP and ceiling legend interpretation
-- Floor and wall finish legend reading
-- FF&E checks
-- Material schedule generation
-- Finish schedule review
-- BOQ checking
-- Interior detailing logic
-- Unit conversion: mm / cm / m
-- Drawing validation before submission
-
-### For Architects
-
-- Facade analysis
-- Sustainability material strategy
-- Exterior and internal wall systems
-- Architectural detailing logic
-- Area program validation
-- Code and zoning review support
-- Facade panelization logic
-- Wall system schedule validation
-- Drawing naming and sheet set review
-- Consultant coordination QA
-
----
-
 ## ✅ Professional Use Notes
 
-These files are designed as practical workflow accelerators. They do not replace professional judgment, local code review, authority approval, manufacturer guidance, or consultant responsibility. Use them to structure your thinking, reduce repetitive tasks, and improve the consistency of your output.
+These files are designed as practical workflow accelerators. They do not replace professional judgment, local code review, authority approval, manufacturer guidance, BIM manager responsibility, consultant responsibility, or ISO 19650 obligations. Use them to structure your thinking, reduce repetitive tasks, and improve the consistency of your output.
 
 ---
 
