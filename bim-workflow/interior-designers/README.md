@@ -1,27 +1,42 @@
-# Interior Designers — BIM Workflow Skills
+# 🎨 Interior Designers — BIM Workflow Skills
 
-This folder contains BIM workflow skills for **Interior Designers**, organized into **Claude AI** and **OpenAI Codex**.
+This folder contains BIM workflow skills for **interior design and fit-out teams**.
 
-## Discipline Focus
+## AI Roles
 
-Interior BIM, fit-out coordination, RCP, finishes, furniture/equipment, joinery, material schedules, BOQ support, and as-built fit-out data.
+- `claude-ai/` → BIM review, drawing interpretation, coordination reasoning, and execution guidance
+- `codex/` → validation rules, schedule logic, clash tracking, quantity checks, and automation outputs
 
-## Folder Structure
+## Interior BIM Focus
+
+- BIM requirements for fit-out and interiors
+- RCP / ceiling model coordination
+- Finish and material model information
+- FF&E / furniture data
+- Joinery and millwork model coordination
+- Room numbers, material codes, quantities, and installation notes
+- Site BIM support and as-built handover
+
+## Common Coordination Checks
+
+- MEP vs ceiling conflicts
+- Lighting vs AC diffuser conflicts
+- Sprinkler vs ceiling features
+- Joinery vs walls / doors / power points
+- Floor finish transitions
+- Access panels and maintenance clearance
+- Furniture layout vs circulation
+
+## Included Skill Files
 
 ```text
 claude-ai/
-  bim-workflow-manager.md
-  discipline-coordination-reviewer.md
+  bim-workflow-skills.md
+  execution-engine.md
 
 codex/
-  bim-validation-automation.md
-  clash-issue-tracking-logic.md
+  bim-automation-validation-skills.md
 ```
-
-## Recommended Use
-
-- Use **Claude AI** for BIM requirement review, BEP review, coordination analysis, deliverable review, and decision support.
-- Use **Codex** for validation logic, issue tracking automation, naming checks, CDE checks, and repeatable QA workflows.
 
 ---
 
